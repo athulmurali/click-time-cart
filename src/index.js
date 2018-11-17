@@ -12,9 +12,23 @@ import {Provider} from "react-redux"
 import logger from 'redux-logger'
 import thunk from 'redux-thunk'
 import promise from 'redux-promise-middleware'
+import ItemsListReducer from "./redux/reducers/ItemsListReducer";
+import RoutedApp from "./containers/RoutedApp";
 
 
-ReactDOM.render(<App />, document.getElementById('root'));
+const combinedReducers = combineReducers({ItemsListReducer});
+const middleware = applyMiddleware(  promise(), thunk ,logger);
+const store = createStore(combinedReducers,middleware);
+
+
+
+ReactDOM.render(
+    <Provider store ={store}>
+        <RoutedApp></RoutedApp>
+    </Provider>
+
+
+    , document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
