@@ -1,4 +1,4 @@
-import {getTotalCost, getTotalItems} from "./utilFunctions";
+import {getDiscountedItemListCost, getTotalItems} from "./utilFunctions";
 
 export const TYPE_BLU_RAY = "BLU-RAY"
 export const TYPE_DVD = "DVD"
@@ -112,7 +112,7 @@ export const DISC_COUNT_DICT_BY_TYPE = {
 
 export const getBulkDiscount = (itemList) => {
 
-    const totalCost = getTotalCost(itemList)
+    const totalCost = getDiscountedItemListCost(itemList)
     const itemCount = getTotalItems(itemList)
 
     if (itemCount >= BULK_DISCOUNT_MIN_COUNT) {
@@ -123,7 +123,7 @@ export const getBulkDiscount = (itemList) => {
 }
 
 export const totalAfterBulkDiscount = (itemList) => {
-    const totalWithoutBulkDiscount = getTotalCost(itemList)
+    const totalWithoutBulkDiscount = getDiscountedItemListCost(itemList)
     const bulkDiscountAmount = getBulkDiscount(itemList)
     return totalWithoutBulkDiscount - bulkDiscountAmount
 }

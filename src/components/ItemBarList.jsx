@@ -3,7 +3,7 @@ import ItemBar from "./ItemBar";
 import connect from "react-redux/es/connect/connect";
 import TotalBar from "./TotalBar";
 import ItemsListCaptionBar from "./ItemsListCaptionBar";
-import {getDiscountForItemList, getTotalCost, getTotalItems} from "../utilFunctions";
+import {getDiscountForItemList, getDiscountedItemListCost, getTotalItems, getItemListCost} from "../utilFunctions";
 import BulkDiscountBar from "./BulkDiscountBar";
 import {getBulkDiscount} from "../Inventory";
 import AfterBulkDiscount from "./AfterBulkDiscount";
@@ -12,6 +12,7 @@ import AfterBulkDiscount from "./AfterBulkDiscount";
 const ItemBarList  =(props)=>{
 
     const itemListTotalDiscount = getDiscountForItemList(props.ItemListArray)
+    const itemListTotalCost = getItemListCost(props.ItemListArray)
 
     //totalDiscounts - includes itemListDiscount and Bulk discount
 
@@ -19,7 +20,7 @@ const ItemBarList  =(props)=>{
 
     const totalDiscounts= parseFloat(itemListTotalDiscount) +  parseFloat(bulkDiscounts)
 
-    const totalPriceAfterItemListDiscount =  parseFloat(getTotalCost(props.ItemListArray))
+    const totalPriceAfterItemListDiscount =  parseFloat(getDiscountedItemListCost(props.ItemListArray))
 
     const amountAfterBulkDiscount = totalPriceAfterItemListDiscount - totalDiscounts
 
@@ -34,7 +35,9 @@ const ItemBarList  =(props)=>{
                                                 discount = {Item.discount}
                                                currency = {Item.currency}/>)}
 
-         <TotalBar totalPrice={totalPriceAfterItemListDiscount}
+         <TotalBar
+             itemListTotalCost = {itemListTotalCost}
+             totalPrice={totalPriceAfterItemListDiscount}
                    itemsCount = {getTotalItems(props.ItemListArray)}
                    itemListDiscount = {itemListTotalDiscount}
          ></TotalBar>

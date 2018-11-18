@@ -21,7 +21,7 @@ const TotalBar =(props)=>{
 
             </div>
             <div className=" col-lg-1 float-left badge-pill">
-                { "---"}
+                { "$" + props.itemListTotalCost}
             </div>
             <div className=" col-lg-1 float-left badge-pill">
                 { "-$" + props.itemListDiscount}

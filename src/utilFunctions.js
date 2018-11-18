@@ -1,4 +1,5 @@
 import {FIXED_COUNT} from "./ConfigConstants";
+import {getBulkDiscount} from "./Inventory";
 
 export  const getTotalItems=(itemsArray)=>{
         const qtyArray = itemsArray.map(item=>item.quantity)
@@ -17,20 +18,37 @@ export  const getTotalItems=(itemsArray)=>{
 
     }
 
-    export const getTotalCost=(itemsArray)=>{
+    export const getDiscountedItemListCost=(itemsArray)=>{
         const temp= itemsArray.reduce(((acc, currentItem) => acc+ getDiscountedItemPrice(currentItem)),0)
         return Number.parseFloat(temp).toFixed(FIXED_COUNT)
 
     }
 
+export const getItemListCost=(itemsArray)=>{
+    const temp= itemsArray.reduce(((acc, currentItem) => acc+ (currentItem.price * currentItem.quantity)),0)
+    return Number.parseFloat(temp).toFixed(FIXED_COUNT)
+
+}
+
 
     export const getDiscountForItemList=(itemsArray)=>{
         const temp =  itemsArray.reduce(((acc, currentItem) => acc+ getDiscountItemAllQuantity(currentItem)),0)
         return Number.parseFloat(temp).toFixed(FIXED_COUNT)
-
-
     }
 
+    export const getFinalPrice=(itemsArray)=>{
+        const itemListTotalDiscount = getDiscountForItemList(itemsArray)
+
+        //totalDiscounts - includes itemListDiscount and Bulk discount
+
+        const bulkDiscounts =  getBulkDiscount(itemsArray)
+
+        const totalDiscounts= parseFloat(itemListTotalDiscount) +  parseFloat(bulkDiscounts)
+
+        const totalPriceAfterItemListDiscount =  parseFloat(getDiscountedItemListCost(itemsArray))
+
+        return totalPriceAfterItemListDiscount - totalDiscounts
+    }
 
     // adapted from
     // https://stackoverflow.com/questions/14446511/most-efficient-method-to-groupby-on-a-array-of-objects

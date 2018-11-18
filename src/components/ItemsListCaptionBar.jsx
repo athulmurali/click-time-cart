@@ -57,8 +57,6 @@ const ItemsListCaptionBar = ()=>{
 }
 
 
-
-
 const mapStateToProps = () => {
 
     return null
