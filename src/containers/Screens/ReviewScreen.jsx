@@ -4,8 +4,11 @@ import Link from "react-router-dom/es/Link";
 import {PLACE_ORDER} from "../../RouteConstants";
 import {RESET_CART} from "../../redux/constants/ItemsList";
 import connect from "react-redux/es/connect/connect";
+import {getTotalItems} from "../../utilFunctions";
 
 const ReviewScreen =(props)=>{
+
+    const countItemsInCart = (getTotalItems(props.ItemListArray))
 
     if (props.ItemListArray.length === 0)
         return <EmptyCart/>
@@ -16,6 +19,7 @@ const ReviewScreen =(props)=>{
 
                     <Link to={PLACE_ORDER}>
                         <button
+                            disabled={countItemsInCart < 1}
                             className="btn btn-outline-success my-2 my-sm-0"
                             type="submit"
                             onClick={()=>{props.resetCart()
