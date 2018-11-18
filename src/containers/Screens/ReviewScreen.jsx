@@ -17,7 +17,10 @@ const ReviewScreen =(props)=>{
                     <Link to={PLACE_ORDER}>
                         <button
                             className="btn btn-outline-success my-2 my-sm-0"
-                            type="submit">Confirm</button>
+                            type="submit"
+                            onClick={()=>{props.resetCart()
+                            }}
+                        >Confirm</button>
                     </Link>
                     <button
                         className="btn btn-outline-danger my-2 my-sm-0"

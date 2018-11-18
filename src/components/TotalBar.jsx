@@ -10,11 +10,9 @@ const TotalBar =(props)=>{
             </div>
 
             <div className=" col-lg-1 float-left badge-pill">
-                { "---"}
             </div>
 
             <div className="col-lg-2">
-                {"---"}
             </div>
             <div className="col-lg-2  float-right">
                 {props.itemsCount}
@@ -32,7 +30,7 @@ const TotalBar =(props)=>{
             </div>
 
             <div className="col-lg-1">
-                ---
+
             </div>
 
         </div>

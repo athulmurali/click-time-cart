@@ -14,10 +14,8 @@ return  <div class="card " style={{minWidth: 40}}>
                 </div>
                 <h5 class="card-title">{props.item.title}</h5>
 
-                {/*<p class="card-text">{props.details}</p>*/}
                 <p class="card-text"><label className="text-muted">{props.item.type}</label></p>
 
-                {/*<p class="card-text"><small class="text-muted">Released 3 days ago</small></p>*/}
 
                 <div className="container">
                     <button className="btn btn-block btn-warning"
