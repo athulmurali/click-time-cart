@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="886f306f-d9c1-4d28-bbbf-d43150c5dbf3" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
-      <change beforePath="$PROJECT_DIR$/src/components/ItemBarList.jsx" afterPath="$PROJECT_DIR$/src/components/ItemBarList.jsx" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Screens/Offers.jsx" afterPath="$PROJECT_DIR$/src/containers/Screens/Offers.jsx" />
-      <change beforePath="$PROJECT_DIR$/src/utilFunctions.js" afterPath="$PROJECT_DIR$/src/utilFunctions.js" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducers/ItemsListReducer.jsx" afterPath="$PROJECT_DIR$/src/redux/reducers/ItemsListReducer.jsx" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,14 +25,31 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="utilFunctions.js" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="utilFunctions.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/utilFunctions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="73">
-              <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+            <state relative-caret-position="225">
+              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding>
                 <element signature="e#0#46#0" expanded="true" />
+                <element signature="e#315#434#0" expanded="false" />
+                <element signature="e#488#602#0" expanded="false" />
+                <element signature="e#661#835#0" expanded="false" />
+                <element signature="e#880#1049#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ItemsListReducer.jsx" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/redux/reducers/ItemsListReducer.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="145" column="0" lean-forward="true" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#116#0" expanded="true" />
+                <element signature="e#2092#2210#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -122,7 +137,6 @@
         <option value="$PROJECT_DIR$/src/components/ItemCardDeck.jsx" />
         <option value="$PROJECT_DIR$/src/components/AfterBulkDiscount.jsx" />
         <option value="$PROJECT_DIR$/src/components/ItemBar.jsx" />
-        <option value="$PROJECT_DIR$/src/redux/reducers/ItemsListReducer.jsx" />
         <option value="$PROJECT_DIR$/src/redux/reducers/InventoryReducer.jsx" />
         <option value="$PROJECT_DIR$/src/components/ItemsListCaptionBar.jsx" />
         <option value="$PROJECT_DIR$/src/containers/Screens/OrderCatalogueScreen.jsx" />
@@ -136,6 +150,7 @@
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/Inventory.js" />
         <option value="$PROJECT_DIR$/src/utilFunctions.js" />
+        <option value="$PROJECT_DIR$/src/redux/reducers/ItemsListReducer.jsx" />
       </list>
     </option>
   </component>
@@ -154,9 +169,8 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="x" value="650" />
-    <option name="width" value="630" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1280" />
     <option name="height" value="800" />
   </component>
   <component name="ProjectView">
@@ -174,7 +188,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -182,41 +195,13 @@
               <item name="click-time-cart" type="b2602c69:ProjectViewProjectNode" />
               <item name="click-time-cart" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="click-time-cart" type="b2602c69:ProjectViewProjectNode" />
-              <item name="click-time-cart" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="click-time-cart" type="b2602c69:ProjectViewProjectNode" />
-              <item name="click-time-cart" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="click-time-cart" type="b2602c69:ProjectViewProjectNode" />
-              <item name="click-time-cart" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="click-time-cart" type="b2602c69:ProjectViewProjectNode" />
-              <item name="click-time-cart" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="redux" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="click-time-cart" type="b2602c69:ProjectViewProjectNode" />
-              <item name="click-time-cart" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="redux" type="462c0819:PsiDirectoryNode" />
-              <item name="reducers" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -348,14 +333,15 @@
       <updated>1542440776839</updated>
       <workItem from="1542440779785" duration="452000" />
       <workItem from="1542441403891" duration="44177000" />
+      <workItem from="1542563358418" duration="709000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49771000" />
+    <option name="totallyTimeSpent" value="50732000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="6" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -365,12 +351,11 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4607978" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2861073" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31663975" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32148626" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -378,29 +363,11 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2861073" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31663975" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -439,7 +406,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/Inventory.js</url>
           <line>10</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
@@ -452,7 +418,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -468,7 +433,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="12" column="20" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -476,9 +440,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="383">
           <caret line="43" column="27" lean-forward="true" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
-          <folding>
-            <element signature="e#661#741#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -506,7 +467,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="29" column="61" lean-forward="false" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="61" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -515,6 +475,9 @@
         <state relative-caret-position="359">
           <caret line="132" column="33" lean-forward="false" selection-start-line="132" selection-start-column="13" selection-end-line="132" selection-end-column="33" />
           <folding>
+            <element signature="e#328#2932#0" expanded="false" />
+            <element signature="e#2977#3041#0" expanded="false" />
+            <element signature="e#3394#3614#0" expanded="false" />
             <element signature="e#3548#3598#0" expanded="false" />
             <element signature="e#3668#3858#0" expanded="false" />
           </folding>
@@ -527,6 +490,7 @@
           <caret line="174" column="70" lean-forward="true" selection-start-line="174" selection-start-column="70" selection-end-line="174" selection-end-column="70" />
           <folding>
             <element signature="e#0#116#0" expanded="true" />
+            <element signature="e#2092#2210#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -545,13 +509,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="419">
           <caret line="56" column="1" lean-forward="true" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
-          <folding>
-            <element signature="e#206#1485#0" expanded="false" />
-            <element signature="e#1518#1538#0" expanded="false" />
-            <element signature="e#1633#1818#0" expanded="false" />
-            <element signature="e#1871#2063#0" expanded="false" />
-            <element signature="e#2103#2263#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -559,7 +516,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="179">
           <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -604,6 +560,10 @@
           <caret line="21" column="5" lean-forward="false" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
           <folding>
             <element signature="e#0#46#0" expanded="true" />
+            <element signature="e#315#434#0" expanded="false" />
+            <element signature="e#488#602#0" expanded="false" />
+            <element signature="e#661#835#0" expanded="false" />
+            <element signature="e#880#1049#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -630,13 +590,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json" />
     <entry file="file://$PROJECT_DIR$/node_modules/react-router-dom/umd/react-router-dom.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -648,7 +602,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -656,7 +609,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="3863" column="12" lean-forward="false" selection-start-line="3863" selection-start-column="12" selection-end-line="3863" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -671,7 +623,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -691,7 +642,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -726,7 +676,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -742,7 +691,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -750,7 +698,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -781,7 +728,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -801,7 +747,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -809,7 +754,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -825,7 +769,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="17" column="21" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -843,13 +786,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="3" column="8" lean-forward="false" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-          <folding>
-            <element signature="e#206#1485#0" expanded="false" />
-            <element signature="e#1518#1538#0" expanded="false" />
-            <element signature="e#1633#1818#0" expanded="false" />
-            <element signature="e#1871#2063#0" expanded="false" />
-            <element signature="e#2103#2263#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -871,7 +807,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="18" column="94" lean-forward="false" selection-start-line="18" selection-start-column="94" selection-end-line="18" selection-end-column="94" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -879,26 +814,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/redux/reducers/ItemsListReducer.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-228">
-          <caret line="129" column="0" lean-forward="true" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#116#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/utilFunctions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+        <state relative-caret-position="225">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding>
             <element signature="e#0#46#0" expanded="true" />
+            <element signature="e#315#434#0" expanded="false" />
+            <element signature="e#488#602#0" expanded="false" />
+            <element signature="e#661#835#0" expanded="false" />
+            <element signature="e#880#1049#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/redux/reducers/ItemsListReducer.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="145" column="0" lean-forward="true" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#116#0" expanded="true" />
+            <element signature="e#2092#2210#0" expanded="false" />
           </folding>
         </state>
       </provider>
