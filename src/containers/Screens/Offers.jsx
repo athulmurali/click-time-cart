@@ -5,6 +5,9 @@ const offersArray  = [
     "Purchase all the different DVDs, " +
     "and 10% discount on those items",
 
+    "Purchase all the different BLU-RAY, " +
+    "and 15% discount on those items",
+
     "Get a 5% bulk discount  on the total in addition to previous discounts " +
     "for purchase of  100 items or more "
 ]

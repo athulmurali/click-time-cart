@@ -37,6 +37,8 @@ export const getItemListCost=(itemsArray)=>{
     }
 
     export const getFinalPrice=(itemsArray)=>{
+        const itemListTotalCost = getItemListCost(itemsArray)
+
         const itemListTotalDiscount = getDiscountForItemList(itemsArray)
 
         //totalDiscounts - includes itemListDiscount and Bulk discount
@@ -45,9 +47,8 @@ export const getItemListCost=(itemsArray)=>{
 
         const totalDiscounts= parseFloat(itemListTotalDiscount) +  parseFloat(bulkDiscounts)
 
-        const totalPriceAfterItemListDiscount =  parseFloat(getDiscountedItemListCost(itemsArray))
 
-        return totalPriceAfterItemListDiscount - totalDiscounts
+        return itemListTotalCost - totalDiscounts
     }
 
     // adapted from
