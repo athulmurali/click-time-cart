@@ -16,7 +16,7 @@ const  RoutedApp =()=> {
 
                     <Switch>
 
-                        <Route exact path="/"                  component={ReviewScreen}/>
+                        <Route exact path="/"                  component={OrderCatalogueScreen}/>
                         <Route exact path={OFFERS}            component={Offers}/>
                         <Route exact path={ITEM_CATALOGUE}     component={OrderCatalogueScreen}/>
                         <Route  exact path={REVIEW_SCREEN}     component={ReviewScreen} />
