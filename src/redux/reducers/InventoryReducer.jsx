@@ -8,8 +8,6 @@ const initialState = {
 };
 
 
-
-
 const InventoryReducer = (state = initialState, action) => {
 
    //this part should be replaced with the api service and dependent cases,

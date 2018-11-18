@@ -3,9 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="886f306f-d9c1-4d28-bbbf-d43150c5dbf3" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/Inventory.js" afterPath="$PROJECT_DIR$/src/Inventory.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/ItemBar.jsx" afterPath="$PROJECT_DIR$/src/components/ItemBar.jsx" />
-      <change beforePath="$PROJECT_DIR$/src/redux/reducers/ItemsListReducer.jsx" afterPath="$PROJECT_DIR$/src/redux/reducers/ItemsListReducer.jsx" />
+      <change beforePath="$PROJECT_DIR$/src/components/BulkDiscountBar.jsx" afterPath="$PROJECT_DIR$/src/components/BulkDiscountBar.jsx" />
+      <change beforePath="$PROJECT_DIR$/src/components/ItemBarList.jsx" afterPath="$PROJECT_DIR$/src/components/ItemBarList.jsx" />
+      <change beforePath="$PROJECT_DIR$/src/components/ItemsListCaptionBar.jsx" afterPath="$PROJECT_DIR$/src/components/ItemsListCaptionBar.jsx" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducers/InventoryReducer.jsx" afterPath="$PROJECT_DIR$/src/redux/reducers/InventoryReducer.jsx" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,10 +32,9 @@
       <file leaf-file-name="Inventory.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Inventory.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="130" column="51" lean-forward="false" selection-start-line="130" selection-start-column="51" selection-end-line="130" selection-end-column="51" />
+            <state relative-caret-position="258">
+              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding>
-                <element signature="e#315#2919#0" expanded="false" />
                 <element signature="e#2964#3028#0" expanded="false" />
                 <element signature="e#3381#3588#0" expanded="false" />
                 <element signature="e#3522#3572#0" expanded="false" />
@@ -44,11 +44,72 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InventoryReducer.jsx" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ItemsListCaptionBar.jsx" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/ItemsListCaptionBar.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding>
+                <element signature="e#1635#1820#0" expanded="false" />
+                <element signature="e#1873#2065#0" expanded="false" />
+                <element signature="e#2105#2265#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InventoryReducer.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/redux/reducers/InventoryReducer.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+            <state relative-caret-position="240">
+              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AfterBulkDiscount.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/AfterBulkDiscount.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-45">
+              <caret line="29" column="61" lean-forward="false" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="61" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ItemCardDeck.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/ItemCardDeck.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="36" column="42" lean-forward="true" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#298#472#0" expanded="false" />
+                <element signature="e#609#619#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ItemBarList.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/ItemBarList.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-90">
+              <caret line="17" column="27" lean-forward="false" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+                <element signature="e#964#2140#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BulkDiscountBar.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/BulkDiscountBar.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -113,12 +174,10 @@
         <option value="$PROJECT_DIR$/src/containers/Screens/Offers.jsx" />
         <option value="$PROJECT_DIR$/src/models/Item.js" />
         <option value="$PROJECT_DIR$/src/models/ShoppingItem.js" />
-        <option value="$PROJECT_DIR$/src/components/ItemsListCaptionBar.jsx" />
         <option value="$PROJECT_DIR$/src/containers/Screens/ConfirmOrder.jsx" />
         <option value="$PROJECT_DIR$/Inventory.json" />
         <option value="$PROJECT_DIR$/Inventory.js" />
         <option value="$PROJECT_DIR$/src/ConfigConstants.js" />
-        <option value="$PROJECT_DIR$/src/redux/reducers/InventoryReducer.jsx" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/redux/constants/ItemsList.jsx" />
         <option value="$PROJECT_DIR$/src/containers/RoutedApp.js" />
@@ -127,13 +186,15 @@
         <option value="$PROJECT_DIR$/src/containers/Screens/ReviewScreen.jsx" />
         <option value="$PROJECT_DIR$/src/components/ItemCardDeck.jsx" />
         <option value="$PROJECT_DIR$/src/components/TotalBar.jsx" />
-        <option value="$PROJECT_DIR$/src/components/BulkDiscountBar.jsx" />
         <option value="$PROJECT_DIR$/src/components/AfterBulkDiscount.jsx" />
         <option value="$PROJECT_DIR$/src/utilFunctions.js" />
         <option value="$PROJECT_DIR$/src/components/ItemBar.jsx" />
-        <option value="$PROJECT_DIR$/src/components/ItemBarList.jsx" />
-        <option value="$PROJECT_DIR$/src/Inventory.js" />
         <option value="$PROJECT_DIR$/src/redux/reducers/ItemsListReducer.jsx" />
+        <option value="$PROJECT_DIR$/src/redux/reducers/InventoryReducer.jsx" />
+        <option value="$PROJECT_DIR$/src/components/ItemBarList.jsx" />
+        <option value="$PROJECT_DIR$/src/components/BulkDiscountBar.jsx" />
+        <option value="$PROJECT_DIR$/src/Inventory.js" />
+        <option value="$PROJECT_DIR$/src/components/ItemsListCaptionBar.jsx" />
       </list>
     </option>
   </component>
@@ -184,6 +245,12 @@
               <item name="click-time-cart" type="b2602c69:ProjectViewProjectNode" />
               <item name="click-time-cart" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="click-time-cart" type="b2602c69:ProjectViewProjectNode" />
+              <item name="click-time-cart" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="click-time-cart" type="b2602c69:ProjectViewProjectNode" />
@@ -339,7 +406,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45865000" />
+    <option name="totallyTimeSpent" value="46644000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
@@ -420,7 +487,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/components/ItemBarList.jsx</url>
-          <line>26</line>
+          <line>25</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
@@ -541,9 +608,9 @@
         <state relative-caret-position="419">
           <caret line="56" column="1" lean-forward="true" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
           <folding>
-            <element signature="e#1265#1450#0" expanded="false" />
-            <element signature="e#1503#1695#0" expanded="false" />
-            <element signature="e#1735#1895#0" expanded="false" />
+            <element signature="e#1635#1820#0" expanded="false" />
+            <element signature="e#1873#2065#0" expanded="false" />
+            <element signature="e#2105#2265#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -573,7 +640,7 @@
           <caret line="60" column="0" lean-forward="true" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
-            <element signature="e#1036#2212#0" expanded="false" />
+            <element signature="e#964#2140#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -723,18 +790,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ItemCardDeck.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="36" column="42" lean-forward="true" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#298#472#0" expanded="false" />
-            <element signature="e#609#619#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/TotalBar.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="129">
@@ -753,51 +808,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/AfterBulkDiscount.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="61" lean-forward="false" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/BulkDiscountBar.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ItemsListCaptionBar.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
-          <folding>
-            <element signature="e#1265#1450#0" expanded="false" />
-            <element signature="e#1503#1695#0" expanded="false" />
-            <element signature="e#1735#1895#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/Screens/OrderCatalogueScreen.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
           <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ItemBarList.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="58" column="55" lean-forward="true" selection-start-line="58" selection-start-column="55" selection-end-line="58" selection-end-column="55" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-            <element signature="e#1036#2212#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -851,20 +867,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Inventory.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="130" column="51" lean-forward="false" selection-start-line="130" selection-start-column="51" selection-end-line="130" selection-end-column="51" />
-          <folding>
-            <element signature="e#315#2919#0" expanded="false" />
-            <element signature="e#2964#3028#0" expanded="false" />
-            <element signature="e#3381#3588#0" expanded="false" />
-            <element signature="e#3522#3572#0" expanded="false" />
-            <element signature="e#3642#3819#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/redux/reducers/ItemsListReducer.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1696">
@@ -877,9 +879,73 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/redux/reducers/InventoryReducer.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        <state relative-caret-position="240">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/AfterBulkDiscount.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-45">
+          <caret line="29" column="61" lean-forward="false" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ItemCardDeck.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="36" column="42" lean-forward="true" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#298#472#0" expanded="false" />
+            <element signature="e#609#619#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ItemBarList.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-90">
+          <caret line="17" column="27" lean-forward="false" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#964#2140#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/BulkDiscountBar.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Inventory.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="e#2964#3028#0" expanded="false" />
+            <element signature="e#3381#3588#0" expanded="false" />
+            <element signature="e#3522#3572#0" expanded="false" />
+            <element signature="e#3642#3819#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ItemsListCaptionBar.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="e#1635#1820#0" expanded="false" />
+            <element signature="e#1873#2065#0" expanded="false" />
+            <element signature="e#2105#2265#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

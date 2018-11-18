@@ -22,7 +22,7 @@ const BulkDiscountBar=(props)=>{
                 { "---"}
             </div>
             <div className=" col-lg-1 float-left badge-pill">
-                { "-$" + props.bulkDiscountAmount}
+                { "-$" + Number.parseFloat(props.bulkDiscountAmount).toFixed(2)}
             </div>
 
             <div className=" col-lg-1 float-left badge-pill">

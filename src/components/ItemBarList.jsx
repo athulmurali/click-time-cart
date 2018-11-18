@@ -5,9 +5,8 @@ import TotalBar from "./TotalBar";
 import ItemsListCaptionBar from "./ItemsListCaptionBar";
 import {getDiscountForItemList, getTotalCost, getTotalItems} from "../utilFunctions";
 import BulkDiscountBar from "./BulkDiscountBar";
-import {getBulkDiscount, totalAfterBulkDiscount} from "../Inventory";
+import {getBulkDiscount} from "../Inventory";
 import AfterBulkDiscount from "./AfterBulkDiscount";
-import {FIXED_COUNT} from "../ConfigConstants";
 
 
 const ItemBarList  =(props)=>{

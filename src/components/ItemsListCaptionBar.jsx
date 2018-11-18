@@ -5,33 +5,50 @@ const ItemsListCaptionBar = ()=>{
     return< li className="list-group-item">
         <div className = "row">
             <div className="col-lg-3 pull-left">
-                { "Title"}
+                <b>
+                    { "Title"}
+
+                </b>
             </div>
 
             <div className=" col-lg-1 float-left badge-pill">
-                { "Type"}
+                <b>
+                    { "Type"}
+
+                </b>
             </div>
 
             <div className="col-lg-2">
-                {"Price"}
+                <b>
+                    {"Price"}
+                </b>
             </div>
             <div className="col-lg-2  float-right">
-                Quantity
+                <b>
+                    {"Quantity"}
+                </b>
+            </div>
+            <div className=" col-lg-1 float-left badge-pill">
+                <b>
+                    {"ItemPrice"}
+                </b>
+            </div>
+            <div className=" col-lg-1 float-left badge-pill">
+                <b>
+                    {"Discount"}
+                </b>
+            </div>
 
-            </div>
             <div className=" col-lg-1 float-left badge-pill">
-                { "ItemPrice"}
-            </div>
-            <div className=" col-lg-1 float-left badge-pill">
-                { "Discount"}
-            </div>
-
-            <div className=" col-lg-1 float-left badge-pill">
-                { "Net Price" }
+                <b>
+                    { "Net Price" }
+                </b>
             </div>
 
             <div className="col-lg-1">
-               Remove
+                <b>
+                    { "Remove" }
+                </b>
             </div>
 
         </div>
