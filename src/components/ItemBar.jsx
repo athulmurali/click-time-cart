@@ -1,39 +1,72 @@
 import React from 'react';
 import connect from "react-redux/es/connect/connect";
 import {DELETE_ITEM_BY_INDEX, INC_DEC_QTY, REPLACE_QTY} from "../redux/constants/ItemsList";
-const ItemBar = (props)=>{
+
+const ItemBar = (props) => {
     console.log(props)
-    return< li className="list-group-item">
-        <div className = "row">
-            <div className="col-lg-4 pull-left">
-                {props.title  }
+    return < li className="list-group-item">
+        <div className="row">
+            <div className="col-lg-3 pull-left">
+                {props.title}
             </div>
 
-            <div className="col-lg-2 pull-left">
-                {props.price + props.currency  }
+            <div className=" col-lg-1 float-left badge-pill">
+                {props.type}
             </div>
-            <div className=" col-lg-2 float-left badge-pill">
-                { props.type}
+
+            <div className="col-lg-2">
+                {"$" + props.price}
             </div>
-            <div className="col-lg-3  float-right">
-               <button className="font-weight-bold btn btn-outline-danger rounded "
-                       disabled={props.quantity <=0}
-                       onClick={()=>{props.increaseQty(props.index, -1)}}>-</button>
+            <div className="col-lg-2  float-right">
+                <button className="font-weight-bold btn btn-outline-danger rounded "
+                        disabled={props.quantity <= 0}
+                        onClick={() => {
+                            props.incOrDecQty(props.index, -1)
+                        }}>-
+                </button>
                 <input className="input-group-sm"
 
                        value={props.quantity}
-                       style ={{width:50, justifyContent:'center'}}
-                       onChange={e=>props.updateItemQty(props.index,parseInt(e.target.value) )}
+                       style={{width: 50, justifyContent: 'center'}}
+                       onChange={(e) => {
+                           const val = parseInt(e.target.value)
+                           if (isNaN(val)) {
+                               props.updateItemQty(props.index, 0)
+                           }
+
+
+                           else {
+                               props.updateItemQty(props.index, val)
+                           }
+
+                       }}
                 />
 
 
                 <button className="btn btn-outline-success rounded"
-                        onClick={()=>{props.increaseQty(props.index, 1)}}>+</button>
+                        onClick={() => {
+                            props.incOrDecQty(props.index, 1)
+                        }}>+
+                </button>
+            </div>
+            <div className=" col-lg-1 float-left badge-pill">
+                {"$" + props.price * props.quantity}
+            </div>
+            <div className=" col-lg-1 float-left badge-pill">
+                {"-$" + (props.discount * props.price * props.quantity).toFixed(2)}
             </div>
 
-            <div className="col-lg-1  float-right">
+            <div className=" col-lg-1 float-left badge-pill">
+                {"$" + (props.quantity * props.price * (1 - props.discount))}
+            </div>
+
+
+            <div className="col-lg-1">
                 <button className="font-weight-bold btn btn-danger rounded "
-                        onClick={()=>{props.deleteItem(props.index)}}>X</button>
+                        onClick={() => {
+                            props.deleteItem(props.index)
+                        }}>X
+                </button>
             </div>
 
         </div>
@@ -42,44 +75,42 @@ const ItemBar = (props)=>{
 }
 
 
+const mapStateToProps = () => {
 
-
-const mapStateToProps = state => {
-
-return null
+    return null
 };
 
 
-const mapDispatchToProps = (dispatch) =>({
+const mapDispatchToProps = (dispatch) => ({
 
 
-    updateItemQty: (itemIndexInArray,newQty)=>{
+    updateItemQty: (itemIndexInArray, newQty) => {
         dispatch({
-            type : REPLACE_QTY,
-            payload:{
-                array_index : itemIndexInArray,
-                newQty : newQty
+            type: REPLACE_QTY,
+            payload: {
+                array_index: itemIndexInArray,
+                newQty: newQty
             }
         })
     },
 
 
-    increaseQty: (itemIndexInArray,qtyToChange)=>{
+    incOrDecQty: (itemIndexInArray, qtyToChange) => {
         dispatch({
-            type : INC_DEC_QTY,
-            payload:{
-                array_index : itemIndexInArray,
-                incOrDec : qtyToChange
+            type: INC_DEC_QTY,
+            payload: {
+                array_index: itemIndexInArray,
+                incOrDec: qtyToChange
             }
         })
     },
 
 
-    deleteItem: (itemIndexInArray)=>{
+    deleteItem: (itemIndexInArray) => {
         dispatch({
-            type : DELETE_ITEM_BY_INDEX,
-            payload:{
-                itemIndex : itemIndexInArray,
+            type: DELETE_ITEM_BY_INDEX,
+            payload: {
+                itemIndex: itemIndexInArray,
             }
         })
     }
@@ -88,7 +119,5 @@ const mapDispatchToProps = (dispatch) =>({
 })
 
 
-
-
-export default connect( mapStateToProps, mapDispatchToProps)(ItemBar);
+export default connect(mapStateToProps, mapDispatchToProps)(ItemBar);
 

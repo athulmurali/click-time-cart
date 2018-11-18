@@ -14,9 +14,11 @@ import thunk from 'redux-thunk'
 import promise from 'redux-promise-middleware'
 import ItemsListReducer from "./redux/reducers/ItemsListReducer";
 import RoutedApp from "./containers/RoutedApp";
+import 'font-awesome/css/font-awesome.min.css';
+import InventoryReducer from "./redux/reducers/InventoryReducer";
 
 
-const combinedReducers = combineReducers({ItemsListReducer});
+const combinedReducers = combineReducers({ItemsListReducer,InventoryReducer});
 const middleware = applyMiddleware(  promise(), thunk ,logger);
 const store = createStore(combinedReducers,middleware);
 

@@ -1,10 +1,54 @@
 import React from 'react'
-import ShoppingCart from "../ShoppingCart";
+import ItemBarList from "../../components/ItemBarList";
+import Link from "react-router-dom/es/Link";
+import {PLACE_ORDER} from "../../RouteConstants";
+import {RESET_CART} from "../../redux/constants/ItemsList";
+import connect from "react-redux/es/connect/connect";
 
-const ReviewScreen =()=>{
-    return <ShoppingCart></ShoppingCart>
+const ReviewScreen =(props)=>{
 
+    if (props.ItemListArray.length === 0)
+        return <EmptyCart/>
+    return <div>
+            <nav className="navbar navbar-light bg-light justify-content-between">
+                <a className="navbar-brand justify-content-start">Review order</a>
+                <form className="form-inline justify-content-center">
+
+                    <Link to={PLACE_ORDER}>
+                        <button
+                            className="btn btn-outline-success my-2 my-sm-0"
+                            type="submit">Confirm</button>
+                    </Link>
+                    <button
+                        className="btn btn-outline-danger my-2 my-sm-0"
+                        onClick={()=>{props.resetCart()}}
+                    >Clear</button>
+
+                </form>
+            </nav>
+             <ItemBarList></ItemBarList>
+    </div>
 }
 
+const EmptyCart =()=>{
+    return <div className="jumbotron text-center">
+        <h3> No items added! Your shopping cart is empty</h3>
+    </div>
+}
 
-export default  ReviewScreen
+const mapStateToProps = (state)=>{
+    return state.ItemsListReducer
+
+}
+const mapDispatchToProps=(dispatch)=>({
+    resetCart: ()=>{
+        dispatch({
+            type : RESET_CART,
+
+        })
+    },
+
+
+})
+
+export default  connect(mapStateToProps, mapDispatchToProps)(ReviewScreen)
