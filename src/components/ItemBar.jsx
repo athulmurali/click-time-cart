@@ -57,7 +57,7 @@ const ItemBar = (props) => {
             </div>
 
             <div className=" col-lg-1 float-left badge-pill">
-                {"$" + (props.quantity * props.price * (1 - props.discount))}
+                {"$" + (props.quantity * props.price * (1 - props.discount)).toFixed(2)}
             </div>
 
 

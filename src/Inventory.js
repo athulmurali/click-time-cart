@@ -19,7 +19,7 @@ export const ItemListArray = [
         details: "Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, " +
         "a Wookiee and two droids to save the galaxy.",
         coverImgUrl: 'https://images-na.ssl-images-amazon.com/images/I/81ae8A9aEYL._SL1500_.jpg',
-        discount: 0.05
+        discount: 0.00
 
     },
     {
@@ -127,6 +127,7 @@ export const totalAfterBulkDiscount = (itemList) => {
     const bulkDiscountAmount = getBulkDiscount(itemList)
     return totalWithoutBulkDiscount - bulkDiscountAmount
 }
-
+export const maxUniqueBLURayCount = getAllBLU_RAY().length
+export const maxUniqueDVDCount = getAllDVD().length
 
 export default ItemListArray
