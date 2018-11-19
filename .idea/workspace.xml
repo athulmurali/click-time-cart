@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="886f306f-d9c1-4d28-bbbf-d43150c5dbf3" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/ConfigConstants.js" afterPath="$PROJECT_DIR$/src/ConfigConstants.js" />
+      <change beforePath="$PROJECT_DIR$/src/ConfigConstants.js" afterPath="$PROJECT_DIR$/src/config/ConfigConstants.js" />
       <change beforePath="$PROJECT_DIR$/src/Inventory.js" afterPath="$PROJECT_DIR$/src/Inventory.js" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Screens/Offers.jsx" afterPath="$PROJECT_DIR$/src/containers/Screens/Offers.jsx" />
+      <change beforePath="$PROJECT_DIR$/src/redux/constants/ItemsList.jsx" afterPath="$PROJECT_DIR$/src/redux/constants/ItemsList.jsx" />
       <change beforePath="$PROJECT_DIR$/src/redux/reducers/InventoryReducer.jsx" afterPath="$PROJECT_DIR$/src/redux/reducers/InventoryReducer.jsx" />
       <change beforePath="$PROJECT_DIR$/src/redux/reducers/ItemsListReducer.jsx" afterPath="$PROJECT_DIR$/src/redux/reducers/ItemsListReducer.jsx" />
       <change beforePath="$PROJECT_DIR$/src/utilFunctions.js" afterPath="$PROJECT_DIR$/src/utilFunctions.js" />
@@ -30,17 +32,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ConfigConstants.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ConfigConstants.js">
+      <file leaf-file-name="ConfigConstants.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/config/ConfigConstants.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="195">
+              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding>
+                <element signature="e#281#581#0" expanded="false" />
+                <element signature="e#617#3221#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ItemsList.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/redux/constants/ItemsList.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InventoryReducer.jsx" pinned="false" current-in-tab="true">
+      <file leaf-file-name="InventoryReducer.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/redux/reducers/InventoryReducer.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
@@ -57,7 +72,7 @@
               <caret line="16" column="46" lean-forward="false" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
               <folding>
                 <element signature="e#0#116#0" expanded="true" />
-                <element signature="e#2126#2244#0" expanded="false" />
+                <element signature="e#2133#2251#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -70,10 +85,10 @@
               <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding>
                 <element signature="e#0#73#0" expanded="true" />
-                <element signature="e#243#309#0" expanded="false" />
-                <element signature="e#347#393#0" expanded="false" />
-                <element signature="e#425#467#0" expanded="false" />
-                <element signature="e#516#736#0" expanded="false" />
+                <element signature="e#250#316#0" expanded="false" />
+                <element signature="e#354#400#0" expanded="false" />
+                <element signature="e#432#474#0" expanded="false" />
+                <element signature="e#523#743#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -144,7 +159,6 @@
         <option value="$PROJECT_DIR$/src/models/ShoppingItem.js" />
         <option value="$PROJECT_DIR$/Inventory.json" />
         <option value="$PROJECT_DIR$/Inventory.js" />
-        <option value="$PROJECT_DIR$/src/redux/constants/ItemsList.jsx" />
         <option value="$PROJECT_DIR$/src/components/AfterBulkDiscount.jsx" />
         <option value="$PROJECT_DIR$/src/components/ItemBar.jsx" />
         <option value="$PROJECT_DIR$/src/components/ItemsListCaptionBar.jsx" />
@@ -166,6 +180,7 @@
         <option value="$PROJECT_DIR$/src/redux/reducers/ItemsListReducer.jsx" />
         <option value="$PROJECT_DIR$/src/Inventory.js" />
         <option value="$PROJECT_DIR$/src/redux/reducers/InventoryReducer.jsx" />
+        <option value="$PROJECT_DIR$/src/redux/constants/ItemsList.jsx" />
       </list>
     </option>
   </component>
@@ -227,14 +242,7 @@
               <item name="click-time-cart" type="b2602c69:ProjectViewProjectNode" />
               <item name="click-time-cart" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="redux" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="click-time-cart" type="b2602c69:ProjectViewProjectNode" />
-              <item name="click-time-cart" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="redux" type="462c0819:PsiDirectoryNode" />
-              <item name="reducers" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -258,8 +266,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/config" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/redux/constants" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -378,7 +387,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54816000" />
+    <option name="totallyTimeSpent" value="54987000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -508,10 +517,10 @@
           <caret line="132" column="33" lean-forward="false" selection-start-line="132" selection-start-column="13" selection-end-line="132" selection-end-column="33" />
           <folding>
             <element signature="e#0#73#0" expanded="true" />
-            <element signature="e#243#309#0" expanded="false" />
-            <element signature="e#347#393#0" expanded="false" />
-            <element signature="e#425#467#0" expanded="false" />
-            <element signature="e#516#736#0" expanded="false" />
+            <element signature="e#250#316#0" expanded="false" />
+            <element signature="e#354#400#0" expanded="false" />
+            <element signature="e#432#474#0" expanded="false" />
+            <element signature="e#523#743#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -522,8 +531,8 @@
           <caret line="174" column="70" lean-forward="true" selection-start-line="174" selection-start-column="70" selection-end-line="174" selection-end-column="70" />
           <folding>
             <element signature="e#0#116#0" expanded="true" />
-            <element signature="e#437#2067#0" expanded="false" />
-            <element signature="e#2126#2244#0" expanded="false" />
+            <element signature="e#444#2074#0" expanded="false" />
+            <element signature="e#2133#2251#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -591,12 +600,12 @@
         <state relative-caret-position="90">
           <caret line="21" column="5" lean-forward="false" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
           <folding>
-            <element signature="e#0#46#0" expanded="true" />
-            <element signature="e#138#260#0" expanded="false" />
-            <element signature="e#310#418#0" expanded="false" />
-            <element signature="e#472#575#0" expanded="false" />
-            <element signature="e#634#799#0" expanded="false" />
-            <element signature="e#848#1020#0" expanded="false" />
+            <element signature="e#0#53#0" expanded="true" />
+            <element signature="e#145#267#0" expanded="false" />
+            <element signature="e#317#425#0" expanded="false" />
+            <element signature="e#479#582#0" expanded="false" />
+            <element signature="e#641#806#0" expanded="false" />
+            <element signature="e#855#1027#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -649,13 +658,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/redux/constants/ItemsList.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -857,12 +859,12 @@
         <state relative-caret-position="330">
           <caret line="41" column="56" lean-forward="false" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="56" />
           <folding>
-            <element signature="e#0#46#0" expanded="true" />
-            <element signature="e#138#260#0" expanded="false" />
-            <element signature="e#310#418#0" expanded="false" />
-            <element signature="e#472#575#0" expanded="false" />
-            <element signature="e#634#799#0" expanded="false" />
-            <element signature="e#848#1020#0" expanded="false" />
+            <element signature="e#0#53#0" expanded="true" />
+            <element signature="e#145#267#0" expanded="false" />
+            <element signature="e#317#425#0" expanded="false" />
+            <element signature="e#479#582#0" expanded="false" />
+            <element signature="e#641#806#0" expanded="false" />
+            <element signature="e#855#1027#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -873,7 +875,7 @@
           <caret line="16" column="46" lean-forward="false" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
           <folding>
             <element signature="e#0#116#0" expanded="true" />
-            <element signature="e#2126#2244#0" expanded="false" />
+            <element signature="e#2133#2251#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -884,19 +886,11 @@
           <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding>
             <element signature="e#0#73#0" expanded="true" />
-            <element signature="e#243#309#0" expanded="false" />
-            <element signature="e#347#393#0" expanded="false" />
-            <element signature="e#425#467#0" expanded="false" />
-            <element signature="e#516#736#0" expanded="false" />
+            <element signature="e#250#316#0" expanded="false" />
+            <element signature="e#354#400#0" expanded="false" />
+            <element signature="e#432#474#0" expanded="false" />
+            <element signature="e#523#743#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ConfigConstants.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -905,6 +899,25 @@
         <state relative-caret-position="315">
           <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/redux/constants/ItemsList.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config/ConfigConstants.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="e#281#581#0" expanded="false" />
+            <element signature="e#617#3221#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

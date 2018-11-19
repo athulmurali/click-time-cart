@@ -2,7 +2,7 @@ import {ADD_ITEM_TO_CART, DELETE_ITEM_BY_INDEX, INC_DEC_QTY, REPLACE_QTY, RESET_
 import {
     maxUniqueBLURayCount, maxUniqueDVDCount
 } from "../../Inventory";
-import {ALL_BLU_RAY_DISCOUNT, ALL_DVD_DISCOUNT, TYPE_BLU_RAY, TYPE_DVD} from "../../ConfigConstants";
+import {ALL_BLU_RAY_DISCOUNT, ALL_DVD_DISCOUNT, TYPE_BLU_RAY, TYPE_DVD} from "../../config/ConfigConstants";
 
 
 const initialState = {

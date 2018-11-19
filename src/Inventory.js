@@ -1,5 +1,5 @@
 import {getDiscountedItemListCost, getTotalItems} from "./utilFunctions";
-import {BULK_DISCOUNT, BULK_DISCOUNT_MIN_COUNT, StockedItemList, TYPE_BLU_RAY, TYPE_DVD} from "./ConfigConstants";
+import {BULK_DISCOUNT, BULK_DISCOUNT_MIN_COUNT, StockedItemList, TYPE_BLU_RAY, TYPE_DVD} from "./config/ConfigConstants";
 
 
 export const getDiscListByType = (itemList,type) => {

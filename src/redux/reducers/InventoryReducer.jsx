@@ -1,6 +1,6 @@
 //loading from the assumed data set
 
-import {StockedItemList} from "../../ConfigConstants";
+import {StockedItemList} from "../../config/ConfigConstants";
 
 console.log(StockedItemList)
 

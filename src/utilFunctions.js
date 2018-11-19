@@ -1,4 +1,4 @@
-import {FIXED_COUNT} from "./ConfigConstants";
+import {FIXED_COUNT} from "./config/ConfigConstants";
 import {getBulkDiscount} from "./Inventory";
 
 export const getTotalItems = (itemsArray) => {

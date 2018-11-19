@@ -1,5 +1,5 @@
 import React from "react";
-import {offersArray} from "../../ConfigConstants";
+import {offersArray} from "../../config/ConfigConstants";
 
 
 const Offers =(props)=>{
