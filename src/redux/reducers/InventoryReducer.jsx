@@ -1,9 +1,11 @@
 //loading from the assumed data set
-import {ItemListArray} from "../../Inventory";
 
+import {StockedItemList} from "../../ConfigConstants";
+
+console.log(StockedItemList)
 
 const initialState = {
-    ItemListArray: ItemListArray
+    ItemListArray: StockedItemList
 
 };
 
