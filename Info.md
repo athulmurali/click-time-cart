@@ -30,4 +30,5 @@ Implement a bulk discount, so that if the customer adds 100 items or more to the
 
 All the goals have been met.
 
-the discount value is configurable: please find the config file @ src/config
+the discount value is configurable.
+Please find the config file @ src/config
