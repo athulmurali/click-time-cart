@@ -5,12 +5,13 @@ import Link from "react-router-dom/es/Link";
 import connect from "react-redux/es/connect/connect";
 import {getFinalPrice, getTotalItems} from "../../utilFunctions";
 
-const OrderCatalogueScreen =(props)=>{
+const OrderCatalogueScreen =(props)=>
+{
     return <div className="container-fluid">
 
         <div>
             <nav className="navbar navbar-light bg-light justify-content-between">
-                <a className="navbar-brand">Move DVD Catalogue</a>
+                <a className="navbar-brand">Movie DVD Catalogue</a>
                 <form className="form-inline">
                     <i className="px-2 fa fa-dollar"/>
                     <text> {getFinalPrice(props.ItemListArray)}</text>

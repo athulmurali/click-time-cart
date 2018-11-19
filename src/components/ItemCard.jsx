@@ -1,5 +1,5 @@
 import React from "react";
-import {ADD_ITEM_TO_CART, INC_DEC_QTY} from "../redux/constants/ItemsList";
+import {ADD_ITEM_TO_CART} from "../redux/constants/ItemsList";
 import connect from "react-redux/es/connect/connect";
 
 const ItemCard = (props)=>{
@@ -29,9 +29,7 @@ return  <div class="card " style={{minWidth: 40}}>
 }
 
 
-const mapStateToProps =(state)=>{
-    return null
-}
+const mapStateToProps =()=>{{}}
 
 const mapDispatchToProps=(dispatch)=>({
 

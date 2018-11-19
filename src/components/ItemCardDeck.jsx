@@ -3,7 +3,6 @@ import ItemCard from "./ItemCard";
 import connect from "react-redux/es/connect/connect";
 import {getAllBLU_RAY, getAllDVD} from "../Inventory";
 
-const arr =[1,2,3,4]
 const ItemCardDeck =(props)=>{
     console.log(getAllBLU_RAY())
     console.log(getAllDVD())
