@@ -3,11 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="886f306f-d9c1-4d28-bbbf-d43150c5dbf3" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/components/ItemCard.jsx" afterPath="$PROJECT_DIR$/src/components/ItemCard.jsx" />
-      <change beforePath="$PROJECT_DIR$/src/components/ItemCardDeck.jsx" afterPath="$PROJECT_DIR$/src/components/ItemCardDeck.jsx" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Screens/ConfirmOrder.jsx" afterPath="$PROJECT_DIR$/src/containers/Screens/ConfirmOrder.jsx" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Screens/OrderCatalogueScreen.jsx" afterPath="$PROJECT_DIR$/src/containers/Screens/OrderCatalogueScreen.jsx" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
+      <change beforePath="$PROJECT_DIR$/src/ConfigConstants.js" afterPath="$PROJECT_DIR$/src/ConfigConstants.js" />
+      <change beforePath="$PROJECT_DIR$/src/Inventory.js" afterPath="$PROJECT_DIR$/src/Inventory.js" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducers/ItemsListReducer.jsx" afterPath="$PROJECT_DIR$/src/redux/reducers/ItemsListReducer.jsx" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -64,13 +62,39 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ItemCard.jsx" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ItemCard.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/ItemCard.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
               <caret line="7" column="41" lean-forward="true" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConfigConstants.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ConfigConstants.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Inventory.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Inventory.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding>
+                <element signature="e#252#2856#0" expanded="false" />
+                <element signature="e#2901#2965#0" expanded="false" />
+                <element signature="e#3318#3538#0" expanded="false" />
+                <element signature="e#3472#3522#0" expanded="false" />
+                <element signature="e#3592#3782#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -152,7 +176,6 @@
         <option value="$PROJECT_DIR$/src/models/ShoppingItem.js" />
         <option value="$PROJECT_DIR$/Inventory.json" />
         <option value="$PROJECT_DIR$/Inventory.js" />
-        <option value="$PROJECT_DIR$/src/ConfigConstants.js" />
         <option value="$PROJECT_DIR$/src/redux/constants/ItemsList.jsx" />
         <option value="$PROJECT_DIR$/src/components/AfterBulkDiscount.jsx" />
         <option value="$PROJECT_DIR$/src/components/ItemBar.jsx" />
@@ -173,6 +196,7 @@
         <option value="$PROJECT_DIR$/src/containers/Screens/ConfirmOrder.jsx" />
         <option value="$PROJECT_DIR$/src/components/ItemCardDeck.jsx" />
         <option value="$PROJECT_DIR$/src/components/ItemCard.jsx" />
+        <option value="$PROJECT_DIR$/src/ConfigConstants.js" />
       </list>
     </option>
   </component>
@@ -367,16 +391,15 @@
       <workItem from="1542440779785" duration="452000" />
       <workItem from="1542441403891" duration="44177000" />
       <workItem from="1542563358418" duration="1456000" />
-      <workItem from="1542654085268" duration="190000" />
+      <workItem from="1542654085268" duration="372000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51669000" />
+    <option name="totallyTimeSpent" value="51851000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -385,7 +408,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2861073" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2861073" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3263328" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -439,7 +462,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/Inventory.js</url>
-          <line>10</line>
+          <line>11</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
@@ -510,11 +533,11 @@
         <state relative-caret-position="359">
           <caret line="132" column="33" lean-forward="false" selection-start-line="132" selection-start-column="13" selection-end-line="132" selection-end-column="33" />
           <folding>
-            <element signature="e#328#2932#0" expanded="false" />
-            <element signature="e#2977#3041#0" expanded="false" />
-            <element signature="e#3394#3614#0" expanded="false" />
-            <element signature="e#3548#3598#0" expanded="false" />
-            <element signature="e#3668#3858#0" expanded="false" />
+            <element signature="e#252#2856#0" expanded="false" />
+            <element signature="e#2901#2965#0" expanded="false" />
+            <element signature="e#3318#3538#0" expanded="false" />
+            <element signature="e#3472#3522#0" expanded="false" />
+            <element signature="e#3592#3782#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -525,8 +548,8 @@
           <caret line="174" column="70" lean-forward="true" selection-start-line="174" selection-start-column="70" selection-end-line="174" selection-end-column="70" />
           <folding>
             <element signature="e#0#116#0" expanded="true" />
-            <element signature="e#403#2033#0" expanded="false" />
-            <element signature="e#2092#2210#0" expanded="false" />
+            <element signature="e#441#2071#0" expanded="false" />
+            <element signature="e#2130#2248#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -659,13 +682,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ConfigConstants.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/ShoppingCart.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -748,20 +764,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Inventory.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-          <folding>
-            <element signature="e#328#2932#0" expanded="false" />
-            <element signature="e#2977#3041#0" expanded="false" />
-            <element signature="e#3394#3614#0" expanded="false" />
-            <element signature="e#3548#3598#0" expanded="false" />
-            <element signature="e#3668#3858#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/RoutedApp.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -795,8 +797,8 @@
           <caret line="82" column="27" lean-forward="true" selection-start-line="82" selection-start-column="27" selection-end-line="82" selection-end-column="27" />
           <folding>
             <element signature="e#0#116#0" expanded="true" />
-            <element signature="e#403#2033#0" expanded="false" />
-            <element signature="e#2092#2210#0" expanded="false" />
+            <element signature="e#441#2071#0" expanded="false" />
+            <element signature="e#2130#2248#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -881,6 +883,28 @@
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Inventory.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="e#252#2856#0" expanded="false" />
+            <element signature="e#2901#2965#0" expanded="false" />
+            <element signature="e#3318#3538#0" expanded="false" />
+            <element signature="e#3472#3522#0" expanded="false" />
+            <element signature="e#3592#3782#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ConfigConstants.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

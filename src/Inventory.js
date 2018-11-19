@@ -1,13 +1,14 @@
 import {getDiscountedItemListCost, getTotalItems} from "./utilFunctions";
+import {BULK_DISCOUNT, BULK_DISCOUNT_MIN_COUNT} from "./ConfigConstants";
 
 export const TYPE_BLU_RAY = "BLU-RAY"
 export const TYPE_DVD = "DVD"
 
-export const ALL_DVD_DISCOUNT = 0.10
-export const ALL_BLU_RAY_DISCOUNT = 0.15
 
-export const BULK_DISCOUNT_MIN_COUNT = 100
-export const BULK_DISCOUNT = .05
+
+
+
+
 export const ItemListArray = [
     {
         id: 0,
