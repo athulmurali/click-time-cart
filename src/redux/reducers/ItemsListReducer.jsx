@@ -139,7 +139,7 @@ const ItemsListReducer = (state = initialState, action) => {
 
 
         case RESET_CART:
-            return initialState
+            return {...state, ItemListArray : []}
 
         default :
             return {...initialState}
