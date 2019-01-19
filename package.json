@@ -23,6 +23,7 @@
     "gh-pages": "^1.2.0"
   },
   "scripts": {
+    "homepage":"https://athulmurali.github.io/click-time-cart",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "predeploy": "npm run build",
