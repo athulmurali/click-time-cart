@@ -20,7 +20,7 @@
     "redux-logger": "^3.0.6",
     "redux-promise-middleware": "^5.1.1",
     "redux-thunk": "^2.3.0",
-    "gh-pages": "^1.2.0",
+    "gh-pages": "^1.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
