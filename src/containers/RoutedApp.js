@@ -1,4 +1,4 @@
-import {Route, BrowserRouter as Router, Switch} from 'react-router-dom'
+import {Route, HashRouter as Router, Switch} from 'react-router-dom'
 import React from "react";
 import ReviewScreen from "./Screens/ReviewScreen";
 import {ITEM_CATALOGUE, OFFERS, PLACE_ORDER, REVIEW_SCREEN} from "../RouteConstants";
